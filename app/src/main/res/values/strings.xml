@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pra Assesment</string>
+    <string name="name">Muhammad Dicky Mujantara</string>
+    <string name="nim">6706181088</string>
+    <string name="kelas">D3RPLA-42-03</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pilih_rumus">Pilih Rumus</string>
+    <string name="persegi_panjang">Rumus Persegi Panjang</string>
+    <string name="lebar_persegi_panjang">Lebar</string>
+    <string name="panjang_persegi_panjang">Panjang</string>
+    <string name="hitung_persegi_panjang">Hitung</string>
+    <string name="luas_persegi_panjang">Luas :</string>
+    <string name="hasil_luas_persegi_panjang">....</string>
+    <string name="keliling_persegi_panjang">Keliling :</string>
+    <string name="hasil_keliling_persegi_panjang">....</string>
+    <string name="share_persegi_panjang">Share</string>
+    <string name="segitiga">Rumus Segitiga</string>
+    <string name="alas_segitiga">Alas</string>
+    <string name="tinggi_segitiga">Tinggi</string>
+    <string name="hitung_segitiga">Hitung</string>
+    <string name="luas_segitiga">Luas :</string>
+    <string name="hasil_luas_segitiga">....</string>
+    <string name="keliling_segitiga">Keliling :</string>
+    <string name="hasil_keliling_segitiga">....</string>
+    <string name="share_segitiga">Share</string>
+    <string name="about">About</string>
+    <string name="share_text_persegi_panjang">Hasil Luas : %1$s , Hasil keliling : %2$s</string>
+</resources>

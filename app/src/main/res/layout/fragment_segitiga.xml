@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SegitigaFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/input_alas" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.026" android:hint="@string/alas_segitiga"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/input_tinggi" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/input_alas" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.023" android:hint="@string/tinggi_segitiga"/>
+        <Button
+                android:text="@string/hitung_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_hitung" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/input_tinggi" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.032"/>
+        <TextView
+                android:text="@string/luas_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/btn_hitung" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" android:textSize="24sp" android:textColor="#000000"
+                app:layout_constraintHorizontal_bias="0.026" app:layout_constraintVertical_bias="0.033"/>
+        <TextView
+                android:text="@string/hasil_luas_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hasil_luas" app:layout_constraintStart_toEndOf="@+id/textView9"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/btn_hitung" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.049" android:textSize="18sp" android:textColor="#000000"/>
+        <TextView
+                android:text="@string/keliling_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" android:textSize="24sp" android:textColor="#000000"
+                app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.026"/>
+        <TextView
+                android:text="@string/hasil_keliling_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hasil_keliling" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_hasil_luas"
+                app:layout_constraintStart_toEndOf="@+id/textView11" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="18sp" android:textColor="#000000" app:layout_constraintHorizontal_bias="0.007"
+                app:layout_constraintVertical_bias="0.044"/>
+        <Button
+                android:text="@string/share_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_share" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.026"
+                app:layout_constraintVertical_bias="0.045"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
