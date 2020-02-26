@@ -25,10 +25,8 @@ class PersegiPanjangFragment : Fragment() {
     private lateinit var binding : FragmentPersegiPanjangBinding
     private var luas = 0
     private var keliling = 0
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_persegi_panjang, container, false)
-
         if (savedInstanceState != null){
             luas = savedInstanceState.getInt("luasState")
             keliling = savedInstanceState.getInt("kelilingState")

@@ -5,15 +5,15 @@
             app:startDestination="@id/mainFragment">
 
     <fragment android:id="@+id/mainFragment" android:name="org.d3if1088.praassesment.MainFragment"
-              android:label="fragment_main" tools:layout="@layout/fragment_main">
+              android:label="Main Menu" tools:layout="@layout/fragment_main">
         <action android:id="@+id/action_mainFragment_to_persegiPanjangFragment"
                 app:destination="@id/persegiPanjangFragment"/>
         <action android:id="@+id/action_mainFragment_to_segitigaFragment" app:destination="@id/segitigaFragment"/>
     </fragment>
     <fragment android:id="@+id/aboutFragment2" android:name="org.d3if1088.praassesment.AboutFragment"
-              android:label="fragment_about" tools:layout="@layout/fragment_about"/>
+              android:label="About" tools:layout="@layout/fragment_about"/>
     <fragment android:id="@+id/persegiPanjangFragment" android:name="org.d3if1088.praassesment.PersegiPanjangFragment"
-              android:label="fragment_persegi_panjang" tools:layout="@layout/fragment_persegi_panjang"/>
+              android:label="Persegi Panjang" tools:layout="@layout/fragment_persegi_panjang"/>
     <fragment android:id="@+id/segitigaFragment" android:name="org.d3if1088.praassesment.SegitigaFragment"
-              android:label="fragment_segitiga" tools:layout="@layout/fragment_segitiga"/>
+              android:label="Segititga Siku-Siku" tools:layout="@layout/fragment_segitiga"/>
 </navigation>
